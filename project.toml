@@ -2,5 +2,5 @@
 schema-version = "0.2"
 
 [[ io.buildpacks.build.env ]]
-  name = "BP_WEB_SERVER"
-  value = "httpd"
+  name="BP_WEB_SERVER"
+  value="nginx"
