@@ -1,0 +1,13 @@
+[[buildpacks]]
+id = "paketo-community/nginx"
+version = "1.0.2"
+
+[buildpacks.metadata]
+  [buildpacks.metadata.default-arguments]
+  name = "NGINX_VERSION"
+  value = "mainline"
+
+[order]
+  [[order.group]]
+  id = "paketo-community/nginx"
+  version = "1.0.2"
