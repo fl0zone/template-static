@@ -1,9 +1,0 @@
-[ _ ]
-schema-version = "0.2"
-
-[[io.buildpacks.group]]
-uri = "paketo-buildpacks/nginx"
-
-[[ io.buildpacks.build.env ]]
-  name="BP_WEB_SERVER"
-  value="nginx"
